@@ -1,0 +1,13 @@
+/A*
+/js
+/pla*
+/S*
+/Th*
+/Pro*/Ma*
+/Pro*/ob*
+/Pro*/ада*
+/Pro*/Des*/node_*/**
+/Pro*/Des*/.vs/**
+/Pro*/Des*/dist/**
+
+/ProjectsHTML/Desktop-First Project/package-lock.json
