@@ -1,13 +1,52 @@
 ﻿<!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 	<head>
 		<title>:)</title>
 		<link rel="stylesheet" href="css/style.min.css" />
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	</head>
-	<body>
-		@@include('_header.html')
-        <script src="js/script.min.js"></script>
+	<body class="page__body">
+		<div class="page__bg">
+			<header class="header">
+				<div class="header_wrapper">
+					<div class="header__logo">
+						<picture class="header__logo-img">
+							<source src="../dist/img/logo.webp" type="image/webp">
+							<img  src="../dist/img/logo.png">
+						</picture>
+						<span class="header__logo-article"> DART<br>SERVICE MANAGER</span>
+					</div>
+					<li class="header__items items-list">
+						<a class="items-list__home" href="#">Home</a>
+						<a class="items-list__service" href="#">Service</a>
+						<a class="items-list__extension" href="#">Extension</a>
+						<a class="items-list__pricing" href="#">Pricing</a>
+						<a class="items-list__help" href="#">Help</a>
+					</li>
+					<button class="header__button">sign up</button>
+				</div>
+			</header>
+			<section class="video">
+				<div class="video__wrapper">
+					<div class="video__content-left">
+						<h1 class="video__header">LOREM IPSUM<br>DOLOR SIT AMET</h1>
+						<p class="video__article">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco
+						</p>
+						<button class="video__buy-now">BUY NOW</button>
+						<button class="video__TFF">TRY FOR FREE</button>
+					</div>
+					<div class="video__content-left">
+						<video class="video__video" controls preload="metadata" poster="../dist/img/video1.png" >
+							<source src="img/Dave East & Harry Fraud - Just Another Rapper [musicnews1.org].webm" type="video/webm">
+							<source src="img/Dave East & Harry Fraud - Just Another Rapper [musicnews1.org].mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</section>
+		</div>
 	</body>
 </html>
