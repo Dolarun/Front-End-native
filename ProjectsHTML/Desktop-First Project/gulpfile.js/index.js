@@ -36,7 +36,6 @@ let { src, dest } = require('gulp'),
     clean_css = require('gulp-clean-css'),
     rename = require('gulp-rename'),
     uglify = require('gulp-uglify-es').default,
-    babel = require('gulp-babel'),
     sourcemaps = require("gulp-sourcemaps"),
     webp = require("gulp-webp"),
     webpHTML = require("gulp-webp-html"),
@@ -115,9 +114,6 @@ function js() {
         .pipe(sourcemaps.init())
         .pipe(file_include())
         .pipe(dest(path.build.js))
-        .pipe(babel({
-            presets:['@babel/env']
-        }))
         .pipe(uglify())
         .pipe(
             rename({
@@ -151,10 +147,10 @@ function img() {
 function fonts() {
     src(path.src.fonts)
         .pipe(ttf2woff())
-        .pipe(dest.build.fonts);
+        .pipe(dest(path.build.fonts));
     return src(path.src.fonts)
         .pipe(ttf2woff2())
-        .pipe(dest.build.fonts);
+        .pipe(dest(path.build.fonts));
 }
 
 function fontsOTF() {
