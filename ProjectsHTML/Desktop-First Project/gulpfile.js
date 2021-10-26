@@ -10,8 +10,8 @@ let path = {
     },
     src: {
         html: [source_folder + "/*.html","!" + source_folder + "/_*.html"],
-        css: source_folder + "/scss/style.scss",
-        js: source_folder + "/js/script.js",
+        css: source_folder + "/blocks/**/*.scss",
+        js: source_folder + "/blocks/**/*.js",
         img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
         fonts: source_folder + "/fonts/*.ttf"
     },
@@ -41,7 +41,8 @@ let { src, dest } = require('gulp'),
     webpHTML = require("gulp-webp-html"),
     ttf2woff = require("gulp-ttf2woff"),
     ttf2woff2 = require("gulp-ttf2woff2"),
-    fonter = require("gulp-fonter");
+    fonter = require("gulp-fonter"),
+    concat = require('gulp-concat');
 
 
 
@@ -86,6 +87,7 @@ function clean(params) {
 
 function css() {
     return src(path.src.css)
+        .pipe(concat('style.scss'))
         .pipe(scss({
             outputStyle: "expanded"
         }))
@@ -111,6 +113,7 @@ function css() {
 
 function js() {
     return src(path.src.js)
+        .pipe(concat('script.js'))
         .pipe(sourcemaps.init())
         .pipe(file_include())
         .pipe(dest(path.build.js))
