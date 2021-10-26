@@ -17,13 +17,15 @@
 						</picture>
 						<span class="logo__article"> DART<br>SERVICE MANAGER</span>
 					</div>
-					<li class="header__items items-list">
-						<a class="i	tems-list__home" href="#">Home</a>
-						<a class="items-list__service" href="#">Service</a>
-						<a class="items-list__extension" href="#">Extension</a>
-						<a class="items-list__pricing" href="#">Pricing</a>
-						<a class="items-list__help" href="#">Help</a>
-					</li>
+					<div class="header__items items-list">
+						<div class="items-list__wrapper">
+							<a class="i	tems-list__home" href="#">Home</a>
+							<a class="items-list__service" href="#">Service</a>
+							<a class="items-list__extension" href="#">Extension</a>
+							<a class="items-list__pricing" href="#">Pricing</a>
+							<a class="items-list__help" href="#">Help</a>
+						</div>
+					</div>
 					<button class="header__button">sign up</button>
 				</div>
 			</header>
@@ -50,8 +52,8 @@
 		</div>
 		<section class="easy-useful">
 			<div class="easy-useful__wrapper">
-				<h1 class="easy-useful__header header">Easy & Useful</h1>
-				<span class="easy-useful__underheader underheader">Project Management Tool</span>
+				<h1 class="easy-useful__header">Easy & Useful</h1>
+				<span class="easy-useful__underheader">Project Management Tool</span>
 				<p class="easy-useful__paragraph">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -69,7 +71,7 @@
 							tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</li>
-					<li class="easy_useful__item-1">
+					<li class="easy_useful__item-2">
 						<picture class="easy_useful__item-picture">
 							<source srcset="img/EU2.webp" type="image/webp">
 							<img src="img/EU2.png">
@@ -80,7 +82,7 @@
 							tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</li>
-					<li class="easy_useful__item-1">
+					<li class="easy_useful__item-3">
 						<picture class="easy_useful__item-picture">
 							<source srcset="img/EU3.webp" type="image/webp">
 							<img src="img/EU3.png">
@@ -133,8 +135,13 @@
 					tempor incididunt ut labore et dolore magna
 				</p>
 				<div class="services__spoilers" data-spoilers>
+					<!--wrappers?-->
 					<div class="services__spoiler-stat spoiler">
 						<button class="spoiler__title spoiler_stat" type="button" data-spoiler>STATISTICS</button>
+						<picture class="spoiler__image">
+							<source srcset="img/Service_img.webp" type="image/webp">
+							<img src="img/Service_img.png">
+						</picture>
 						<div class="spoiler__text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -145,6 +152,10 @@
 					</div>
 					<div class="services__spoiler-inbox spoiler">
 						<button class="spoiler__title spoiler_inbox" type="button" data-spoiler>INBOX</button>
+						<picture class="spoiler__image">
+							<source srcset="img/Service_img.webp" type="image/webp">
+							<img src="img/Service_img.png">
+						</picture>
 						<div class="spoiler__text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -155,6 +166,10 @@
 					</div>
 					<div class="services__spoiler-team spoiler">
 						<button class="spoiler__title spoiler_team" type="button" data-spoiler>TEAM</button>
+						<picture class="spoiler__image">
+							<source srcset="img/Service_img.webp" type="image/webp">
+							<img src="img/Service_img.png">
+						</picture>
 						<div class="spoiler__text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -165,6 +180,10 @@
 					</div>
 					<div class="services__spoiler-settings spoiler">
 						<button class="spoiler__title spoiler_settings" type="button" data-spoiler>SETTINGS</button>
+						<picture class="spoiler__image">
+							<source srcset="img/Service_img.webp" type="image/webp">
+							<img src="img/Service_img.png">
+						</picture>
 						<div class="spoiler__text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -175,6 +194,10 @@
 					</div>
 					<div class="services__spoiler-feed spoiler">
 						<button class="spoiler__title spoiler_feed" type="button" data-spoiler>FEED</button>
+						<picture class="spoiler__image">
+							<source srcset="img/Service_img.webp" type="image/webp">
+							<img src="img/Service_img.png">
+						</picture>
 						<div class="spoiler__text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -199,66 +222,66 @@
 				<div class="reviews__slider">
 
 					<div class="reviews__slide slide">
+						<div class="slide__wrapper">
+							<picture class="slide__icon">
+								<source srcset="img/av1.webp" type="image/webp">
+								<img src="img/av1.png">
+							</picture>
+							<div class="slide__message-box">
+								<h class="slide__name">John Doe</h>
+								<p class="slide__text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore.
+								</p>
+							</div>
 
-						<picture class="slide__icon">
-							<source srcset="img/av1.webp" type="image/webp">
-							<img src="img/av1.png">
-						</picture>
-						<div class="slide__message-box">
-							<h class="slide__name">John Doe</h>
-							<p class="slide__text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore.
-							</p>
+							<picture class="slide__icon">
+								<source srcset="img/av2.webp" type="image/webp">
+								<img src="img/av2.png">
+							</picture>
+							<div class="slide__message-box">
+								<h class="slide__name">Khalassi</h>
+								<p class="slide__text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore.
+								</p>
+							</div>
+
+							<picture class="slide__icon">
+								<source srcset="img/av3.webp" type="image/webp">
+								<img src="img/av3.png">
+							</picture>
+							<div class="slide__message-box">
+								<h class="slide__name">Aristol</h>
+								<p class="slide__text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore.
+								</p>
+							</div>
+
+							<picture class="slide__icon">
+								<source srcset="img/av5.webp" type="image/webp">
+								<img src="img/av5.png">
+							</picture>
+							<div class="slide__message-box">
+								<h class="slide__name">Plato</h>
+								<p class="slide__text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore.
+								</p>
+							</div>
+
+							<a class="slide__prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="slide__next" onclick="plusSlides(1)">&#10095;</a>
 						</div>
-
-						<picture class="slide__icon">
-							<source srcset="img/av2.webp" type="image/webp">
-							<img src="img/av2.png">
-						</picture>
-						<div class="slide__message-box">
-							<h class="slide__name">Khalassi</h>
-							<p class="slide__text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore.
-							</p>
-						</div>
-
-						<picture class="slide__icon">
-							<source srcset="img/av3.webp" type="image/webp">
-							<img src="img/av3.png">
-						</picture>
-						<div class="slide__message-box">
-							<h class="slide__name">Aristol</h>
-							<p class="slide__text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore.
-							</p>
-						</div>
-
-						<picture class="slide__icon">
-							<source srcset="img/av5.webp" type="image/webp">
-							<img src="img/av5.png">
-						</picture>
-						<div class="slide__message-box">
-							<h class="slide__name">Plato</h>
-							<p class="slide__text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore.
-							</p>
-						</div>
-
-						<a class="slide__prev" onclick="plusSlides(-1)">&#10094;</a>
-						<a class="slide__next" onclick="plusSlides(1)">&#10095;</a>
-
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="team">
 			<div class="team__wrapper">
-				<h class="team__header header">Our Team</h>
-				<p class="team__underheader underheader">
+				<h class="team__header">Our Team</h>
+				<p class="team__underheader">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				</p>
 				<div class="team__slider">
@@ -323,17 +346,19 @@
 		</section>
 		<section class="contact">
 			<div class="contact__wrapper">
-				<h class="contact__header header">Contuct Us</h>
+				<h class="contact__header">Contuct Us</h>
 				<p class="contact__underheader">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				</p>
 				<form class="contact__form form" action="" method="post">
-					<input class="form__f-name" type="text" name="f-name" id="f-name" placeholder="First Name">
-					<input class="form__l-name" type="text" name="l-name" id="l-name" placeholder="Last Name">
-					<input class="form__email" type="text" name="email" id="email" placeholder="Email">
-					<input class="form__message" type="text" name="message" id="message" placeholder="Message">
-					<input class="form__radio-sub" type="checkbox" name="sub" id="sub"> subscribe to the newsletter
-					<input class="form__send" type="submit" name="submit" id="submit" placeholder="Send">
+					<div class="form__wrapper">
+						<input class="form__f-name" type="text" name="f-name" id="f-name" placeholder="First Name">
+						<input class="form__l-name" type="text" name="l-name" id="l-name" placeholder="Last Name">
+						<input class="form__email" type="text" name="email" id="email" placeholder="Email">
+						<input class="form__message" type="text" name="message" id="message" placeholder="Message">
+						<input class="form__radio-sub" type="checkbox" name="sub" id="sub"> subscribe to the newsletter
+						<input class="form__send" type="submit" name="submit" id="submit" placeholder="Send">
+					</div>
 				</form>
 			</div>
 		</section>
@@ -346,27 +371,29 @@
 					</picture>
 					<span class="logo__article"> DART<br>SERVICE MANAGER</span>
 				</div>
-				<li class="footer__items items-list">
-					<a class="items-list__home" href="#">Home</a>
-					<a class="items-list__service" href="#">Service</a>
-					<a class="items-list__extension" href="#">Extension</a>
-					<a class="items-list__pricing" href="#">Pricing</a>
-					<a class="items-list__help" href="#">Help</a>
-				</li>
-				<li class="footer__privacy">
+				<div class="footer__items items-list">
+					<div class="items-list__wrapper">
+						<a class="items-list__home" href="#">Home</a>
+						<a class="items-list__service" href="#">Service</a>
+						<a class="items-list__extension" href="#">Extension</a>
+						<a class="items-list__pricing" href="#">Pricing</a>
+						<a class="items-list__help" href="#">Help</a>
+					</div>
+				</div>
+				<div class="footer__privacy">
 					<a class="footer__item" href="#">Privacy Police</a>
 					<div class="footer__dot"></div>
 					<a class="footer__item" href="#">About us</a>
 					<div class="footer__dot"></div>
 					<a class="footer__item" href="#">About us</a>
-				</li>
+				</div>
 				<li class="footer__links">
 					<a class="footer__facebook" href="#"><img src="img/f.png"></a>
 					<a class="footer__twitter" href="#"><img src="img/tw.png"></a>
 					<a class="footer__LinkedIn" href="#"><img src="img/in.png"></a>
 					<a class="footer__Social-ball" href="#"><img src="img/social_ball.png"></a>
 					<a class="footer__Be" href="#"><img src="img/be_social.png"></a>
-				</li>
+				</div>
 			</div>
 		</footer>
 	</body>
