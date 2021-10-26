@@ -1,1 +1,14 @@
 
+.page {
+    &__body {
+
+    }
+
+    &__bg {
+        padding-bottom:270px;
+        background: linear-gradient(to left, rgba(18,255,247, 0.9), rgba(179,255,171, 0.55)), url(../img/header_bg.png) no-repeat;
+        background-size: 100% 100%;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
