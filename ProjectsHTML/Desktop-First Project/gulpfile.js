@@ -163,10 +163,15 @@ function fontsOTF() {
         }))
         .pipe(dest(source_folder + '/fonts/'));
 }
-
+//app
+function video() {
+    return src('#source/**/*.mp4')
+        .pipe(dest('dist'))
+        .pipe(browser_sync.stream());
+}
 //
 
-let build = gulp.series(clean, gulp.parallel(html,css,js,img,fonts));
+let build = gulp.series(clean, gulp.parallel(html,css,js,img,fonts,video));
 let watch = gulp.parallel(build,watcher,browserSync);
 
 //External task
