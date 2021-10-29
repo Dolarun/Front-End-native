@@ -1,14 +1,15 @@
 
 .page {
     &__body {
-
     }
 
     &__bg {
-        padding-bottom:270px;
-        background: linear-gradient(to left, rgba(18,255,247, 0.9), rgba(179,255,171, 0.55)), url(../img/header_bg.png) no-repeat;
+        background:linear-gradient(-123deg, rgba(24,255,255,0.80) 10%, rgba(24,202,173,1) 100%), url(../img/header_bg.png) no-repeat;
         background-size: 100% 100%;
+        padding-top: 45px;
         padding-left: 80px;
         padding-right: 80px;
+        padding-bottom: 270px;
+        height: 750px;
     }
 }

@@ -1,6 +1,6 @@
 .video {
     &__wrapper {
-        display:flex;
+        display: flex;
     }
 
     &__content-left {
@@ -10,6 +10,11 @@
     }
 
     &__article {
+        font-size: 18px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        line-height: 1.944;
+        text-align: left;
     }
 
     &__buy-now {

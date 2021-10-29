@@ -1,44 +1,99 @@
 .header {
     &_wrapper {
         display: flex;
+        justify-content: space-between;
+        margin-bottom: 160px;
     }
 
     &__logo {
-        display:flex;
+        display: flex;
     }
 
     &__items {
+        align-self: center;
+        flex-basis: 680px;
     }
 
     &__button {
+        width: 80px;
+        height: 25px;
+        align-self: center;
+        background-color: rgba(0,0,0,0);
+        border-width: 1px;
+        border-color: rgba(255, 255, 255);
+        border-style: solid;
+        border-radius: 2px;
+        font-size: 12px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        line-height: 2.083;
+        text-align: center;
+
+        &:hover {
+            background-color: rgba(6, 30, 55,1);
+            font-weight: bold;
+        }
     }
 }
 
 .logo {
     &__img {
-        
+        margin-right: 2px;
+        width: 31px;
+        height: 30px;
     }
 
     &__article {
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1;
+        text-align: left;
     }
 }
 
 .items-list {
     &__wrapper {
+        display: flex;
+        justify-content: space-between;
     }
 
     &__home {
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.667;
+        text-align: left;
+
+        &:hover {
+            font-size: 15px;
+            font-family: "Raleway";
+            color: rgb(6, 30, 55);
+            font-weight: bold;
+            line-height: 1.667;
+            text-align: left;
+        }
     }
 
     &__service {
+        @extend .items-list__home;
     }
 
     &__extension {
+        @extend .items-list__home;
     }
 
     &__pricing {
+        @extend .items-list__home;
     }
 
     &__help {
+        @extend .items-list__home;
     }
 }
+
+
+
+
