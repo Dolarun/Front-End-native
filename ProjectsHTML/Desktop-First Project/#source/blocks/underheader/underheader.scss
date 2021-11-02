@@ -1,0 +1,74 @@
+.underheader {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content-left {
+    }
+
+    &__header {
+        font-size: 55px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.182;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    &__article {
+        font-size: 18px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        line-height: 1.944;
+        text-align: left;
+        max-width: 590px;
+        margin-bottom: 38px;
+    }
+
+    &__buy-now {
+        width: 150px;
+        height: 50px;
+        margin-right: 30px;
+        font-size: 15px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(6, 30, 55);
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+
+        &:hover {
+            background-color: rgb(13, 15, 28);
+            transition: 0.5s;
+        }
+    }
+
+    &__TFF {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgb(6, 30, 55);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+
+        &:hover {
+            background-color: rgb(230, 230, 230);
+            transition: 0.5s;
+        }
+    }
+
+    &__video {
+
+    }
+}

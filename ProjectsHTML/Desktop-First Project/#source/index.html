@@ -29,24 +29,44 @@
 					<button class="header__button">sign up</button>
 				</div>
 			</header>
-			<section class="video">
-				<div class="video__wrapper">
-					<div class="video__content-left">
-						<h1 class="video__header">LOREM IPSUM<br>DOLOR SIT AMET</h1>
-						<p class="video__article">
+			<section class="underheader">
+				<div class="underheader__wrapper">
+					<div class="underheader__content-left">
+						<h1 class="underheader__header">LOREM IPSUM<br>DOLOR SIT AMET</h1>
+						<p class="underheader__article">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco
 						</p>
-						<button class="video__buy-now">BUY NOW</button>
-						<button class="video__TFF">TRY FOR FREE</button>
+						<button class="underheader__buy-now">BUY NOW</button>
+						<button class="underheader__TFF">TRY FOR FREE</button>
 					</div>
-					<div class="video__content-left">
-						<video class="video__video"  preload="metadata" poster="img/video.png">
-							<source src="img/Dave East & Harry Fraud - Just Another Rapper [musicnews1.org].webm" type="video/webm">
-							<source src="img/Dave East & Harry Fraud - Just Another Rapper [musicnews1.org].mp4" type="video/mp4">
-						</video>
-					</div>
+                    <div class="underheader__content-right">
+                        <div class="underheader__video video">
+                            <video class="video__video" preload="metadata" poster="img/video_BG.png">
+                                <source src="img/Dave East & Harry Fraud - Just Another Rapper [musicnews1.org].webm" type="video/webm">
+                                <source src="img/Dave East & Harry Fraud - Just Another Rapper [musicnews1.org].mp4" type="video/mp4">
+                            </video>
+                            <div class="video__postload">
+                                <picture class="video__postload-img">
+                                    <source srcset="img/PB.webp" type="image/webp">
+                                    <img src="img/PB.png">
+                                </picture>
+                            </div>
+                            <div class="video__player-controls">
+                                <div class="video__play">
+                                    &#9658;
+                                </div>
+                                <div class="video__volume">
+                                    <span class="video__volume-sign">🔊</span>
+                                    <input class="video__volume-range" type="range" min="0" max="1" step="0.05" value="1" />
+                                </div>
+                                <div class="video__timeline">
+                                    <span class="video__timeline-current">0:00 /</span> <span class="video__timeline-duration">0:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 			</section>
 		</div>
@@ -59,7 +79,7 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud
 				</p>
-				<ui class="easy-useful__items">
+				<ul class="easy-useful__items">
 					<li class="easy_useful__item-1">
 						<picture class="easy_useful__item-picture">
 							<source srcset="img/EU1.webp" type="image/webp">
@@ -93,9 +113,9 @@
 							tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</li>
-				</ui>
+				</ul>
 				<button class="easy-useful__button">GET STARTED</button>
-				<ui class="easy-useful__statistics">
+				<ul class="easy-useful__statistics">
 					<li class="easy-useful__stat-1">
 						<picture class="easy_useful__stat-picture-1">
 							<source srcset="img/business.webp" type="image/webp">
@@ -124,7 +144,7 @@
 						</picture>
 						<span class="easy-useful__stat-article-4">40000+<br>Pro Users</span>
 					</li>
-				</ui>
+				</ul>
 			</div>
 		</section>
 		<section class="services">
@@ -285,7 +305,6 @@
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				</p>
 				<div class="team__slider">
-					
 					<div class="team__slide second-slide">
 						<picture class="second-slide__img">
 							<source srcset="img/av3.webp" type="image/webp">
@@ -296,14 +315,13 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 						</p>
-						<li class="second-slide__links">
+						<div class="second-slide__links">
 							<a class="second-slide__facebook" href="#"><img src="img/f.png"></a>
 							<a class="second-slide__twitter" href="#"><img src="img/tw.png"></a>
 							<a class="second-slide__LinkedIn" href="#"><img src="img/in.png"></a>
 							<a class="second-slide__Be" href="#"><img src="img/be_social.png"></a>
-						</li>
+						</div>
 					</div>
-
 					<div class="team__slide second-slide">
 						<picture class="second-slide__img">
 							<source srcset="img/av5.webp" type="image/webp">
@@ -314,13 +332,12 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 						</p>
-						<li class="second-slide__links">
+						<div class="second-slide__links">
 							<a class="second-slide__facebook" href="#"><img src="img/f.png"></a>
 							<a class="second-slide__Social-ball" href="#"><img src="img/social_ball.png"></a>
 							<a class="second-slide__Be" href="#"><img src="img/be_social.png"></a>
-						</li>
+						</div>
 					</div>
-
 					<div class="team__slide second-slide">
 						<picture class="second-slide__img">
 							<source srcset="img/av6.webp" type="image/webp">
@@ -331,11 +348,11 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 						</p>
-						<li class="second-slide__links">
+						<div class="second-slide__links">
 							<a class="second-slide__facebook" href="#"><img src="img/f.png"></a>
 							<a class="second-slide__twitter" href="#"><img src="img/tw.png"></a>
-							<a class="second-slide__LinkedIn" href="#"><img src="img/in.png"><a>
-						</li>
+							<a class="second-slide__LinkedIn" href="#"><img src="img/in.png"></a>
+						</div>
 					</div>
 
 					<a class="slide__prev" onclick="plusSlides(-1)"></a>
@@ -387,7 +404,7 @@
 					<div class="footer__dot"></div>
 					<a class="footer__item" href="#">About us</a>
 				</div>
-				<li class="footer__links">
+				<div class="footer__links">
 					<a class="footer__facebook" href="#"><img src="img/f.png"></a>
 					<a class="footer__twitter" href="#"><img src="img/tw.png"></a>
 					<a class="footer__LinkedIn" href="#"><img src="img/in.png"></a>
@@ -396,5 +413,6 @@
 				</div>
 			</div>
 		</footer>
+        <script src="/js/script.js"></script>
 	</body>
 </html>
