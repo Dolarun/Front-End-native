@@ -1,2 +1,2 @@
 # FT-Port
-simple project for practise and profile
+simple projects for practise and profile
