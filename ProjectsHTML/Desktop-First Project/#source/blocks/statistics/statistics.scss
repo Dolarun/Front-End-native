@@ -1,0 +1,74 @@
+.statistics {
+    &__wrapper {
+        display: flex;
+    }
+
+    &__stat-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(128, 216, 255);
+        width: 400px;
+        height: 150px;
+        flex-grow: 1;
+    }
+
+    &__stat-picture-1 {
+        margin-right: 27px;
+        align-content: center;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-top: 17px;
+    }
+
+    &__stat-article-1 {
+        font-size: 20px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: left;
+    }
+
+    &__stat-2 {
+        @extend .statistics__stat-1;
+        background-color: rgb(130, 177, 255);
+    }
+
+    &__stat-picture-2 {
+        @extend .statistics__stat-picture-1;
+    }
+
+    &__stat-article-2 {
+        @extend .statistics__stat-article-1;
+    }
+
+    &__stat-3 {
+        @extend .statistics__stat-1;
+        background-color: rgb(179, 136, 255);
+    }
+
+    &__stat-picture-3 {
+        @extend .statistics__stat-picture-1;
+    }
+
+    &__stat-article-3 {
+        @extend .statistics__stat-article-1;
+    }
+
+    &__stat-4 {
+        @extend .statistics__stat-1;
+        background-color: rgb(234, 128, 252);
+    }
+
+    &__stat-picture-4 {
+        @extend .statistics__stat-picture-1;
+    }
+
+    &__stat-article-4 {
+        @extend .statistics__stat-article-1;
+    }
+}
