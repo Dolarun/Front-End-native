@@ -111,6 +111,10 @@
 
     &__content_active {
         display: flex;
+        animation: animation;
+        animation-duration: 800ms;
+        animation-iteration-count:1;
+        animation-fill-mode:forwards;
     }
 
     &__content_disable {
@@ -137,5 +141,19 @@
         color: rgb(6, 30, 55);
         line-height: 1.667;
         text-align: left;
+    }
+}
+@keyframes animation{
+    0%{
+        opacity:0;
+        height: 130px;
+    }
+    50% {
+        opacity: 0.5;
+        height: 180px;
+    }
+    100% {
+        opacity: 1;
+        height: auto;
     }
 }
