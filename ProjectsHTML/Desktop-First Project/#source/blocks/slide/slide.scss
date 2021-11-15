@@ -1,0 +1,71 @@
+.slide {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &__item {
+        display: flex;
+        margin-bottom: 80px;
+    }
+
+    &__icon {
+        align-self: center;
+        margin-right: 30px;
+
+        img {
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    &__message-box {
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+        max-width: 650px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 15px 15px 15px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &__name {
+        font-size: 18px;
+        font-family: "Raleway";
+        color: rgb(6, 30, 55);
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgb(120, 144, 156);
+        line-height: 1.667;
+        text-align: left;
+    }
+
+    &__prev {
+        transform: rotate(90deg);
+        position: absolute;
+        right: 318px;
+        top: -30px;
+        color: white;
+        width: 100px;
+        height: 100px;
+    }
+
+    &__next {
+        transform: rotate(90deg);
+        position: absolute;
+        right: 318px;
+        top: 420px;
+        color: white;
+        width: 100px;
+        height: 100px;
+    }
+}

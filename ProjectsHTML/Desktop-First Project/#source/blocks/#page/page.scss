@@ -4,14 +4,14 @@
     }
 
     &__bg {
-        background:linear-gradient(-123deg, rgba(24,255,255,0.80) 10%, rgba(24,202,173,1) 100%), url(../img/header_bg.png) no-repeat;
-        background-size: 100% 100%;
+        background: linear-gradient(-123deg, rgba(24,255,255,0.80) 10%, rgba(24,202,173,1) 100%), url(../img/header_bg.png) no-repeat;
+        background-position:inherit;
+        background-size: cover;
+        max-width:100%;
         padding-top: 45px;
         padding-left: 80px;
         padding-right: 80px;
-        padding-bottom: 270px;
-        height: 750px;
-
-        margin-bottom:140px;
+        padding-bottom: 140px;
+        margin-bottom: 140px;
     }
 }

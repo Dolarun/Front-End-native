@@ -1,0 +1,67 @@
+.reviews {
+    &__wrapper {
+        background: linear-gradient(90deg,rgba(9,221,171,0.85),rgba(13,196,192,0.95),rgba(5,181,200,0.98)), url(../img/reviews_bg.png) no-repeat;
+        background-size: cover;
+        height: auto;
+        display: flex;
+        justify-content:space-between;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom:140px;
+        margin-bottom:140px;
+    }
+
+    &__article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__header {
+        margin-top: 154px;
+        margin-bottom: 20px;
+        max-width: 450px;
+        font-size: 45px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    &__underheader {
+        margin-bottom: 70px;
+        max-width: 540px;
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.667;
+        text-align: left;
+    }
+
+    &__button {
+        width: 150px;
+        height: 55px;
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(6, 30, 55);
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+
+        &:hover {
+            background-color: #212F44;
+            font-weight: bold;
+        }
+    }
+
+    &__slider {
+        margin-top:150px;
+    }
+
+}
+    
