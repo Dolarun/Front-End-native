@@ -411,12 +411,22 @@
                 </p>
                 <form class="contact__form form" action="" method="post">
                     <div class="form__wrapper">
-                        <input class="form__f-name" type="text" name="f-name" id="f-name" placeholder="First Name">
-                        <input class="form__l-name" type="text" name="l-name" id="l-name" placeholder="Last Name">
-                        <input class="form__email" type="text" name="email" id="email" placeholder="Email">
+                        <div class="form__two-forms">
+                            <input class="form__f-name" type="text" name="f-name" id="f-name" placeholder="First Name">
+                            <input class="form__l-name" type="text" name="l-name" id="l-name" placeholder="Last Name">
+                        </div>
+                        <div class="form__two-forms">
+                            <input class="form__email" type="text" name="email" id="email" placeholder="Email">
+                            <input class="form__phone" type="text" name="phone" id="phone" placeholder="Phone">
+                        </div>
                         <input class="form__message" type="text" name="message" id="message" placeholder="Message">
-                        <input class="form__radio-sub" type="checkbox" name="sub" id="sub"> subscribe to the newsletter
-                        <input class="form__send" type="submit" name="submit" id="submit" placeholder="Send">
+                        <div class="form__radio-and-button">
+                            <div class="farm__radio">
+                                <input class="form__radio-sub" type="checkbox" name="sub" id="sub">
+                                <span class="farm__radio-article">subscribe to the newsletter</span>
+                            </div>
+                            <input class="form__send" type="submit" name="submit" id="submit" placeholder="Send">
+                        </div>
                     </div>
                 </form>
             </div>

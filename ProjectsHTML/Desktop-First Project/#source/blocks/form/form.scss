@@ -1,0 +1,110 @@
+.form {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__two-forms {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &__f-name {
+        border-width: 1px;
+        border-color: rgb(6, 30, 55);
+        border-style: solid;
+        border-radius: 5px;
+        width: 278px;
+        height: 48px;
+    }
+
+    &__l-name {
+        border-width: 1px;
+        border-color: rgb(6, 30, 55);
+        border-style: solid;
+        border-radius: 5px;
+        width: 278px;
+        height: 48px;
+    }
+
+    &__email {
+        border-width: 1px;
+        border-color: rgb(6, 30, 55);
+        border-style: solid;
+        border-radius: 5px;
+        width: 278px;
+        height: 48px;
+    }
+
+    &__phone {
+        border-width: 1px;
+        border-color: rgb(6, 30, 55);
+        border-style: solid;
+        border-radius: 5px;
+        width: 278px;
+        height: 48px;
+    }
+
+    &__message {
+        border-width: 1px;
+        border-color: rgb(6, 30, 55);
+        border-style: solid;
+        border-radius: 5px;
+        width: 598px;
+        height: 148px;
+        padding-left:78px;
+    }
+
+    &__radio-and-button {
+        display: flex;
+    }
+
+    &__radio {
+        align-self: center;
+    }
+
+    &__radio-sub {
+        font-size: 15px;
+    }
+
+    &__send {
+        font-size: 16px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.875;
+        text-align: center;
+        width: 130px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: rgb(29, 233, 182);
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+
+        &:hover {
+            background-color: rgb(23,184,144);
+            transition: 0.5s;
+        }
+    }
+}
+.Message {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 4855px;
+    z-index: 258;
+}
+
+.Message {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(6, 30, 55);
+    line-height: 2.143;
+    text-align: left;
+    position: absolute;
+    left: 518.812px;
+    top: 4276.029px;
+    z-index: 257;
+}
+
