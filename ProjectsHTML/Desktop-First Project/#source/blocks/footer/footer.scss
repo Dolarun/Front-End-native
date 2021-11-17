@@ -36,12 +36,13 @@
         font-family: "Raleway";
         color: rgba(255, 255, 255, 0.502);
         line-height: 1.667;
-        &:hover{
-            font-weight:bold;
+
+        &:hover {
+            font-weight: bold;
         }
     }
 
-    &__dot-item {
+    &__item_dot {
         position: relative;
 
         &::after {
