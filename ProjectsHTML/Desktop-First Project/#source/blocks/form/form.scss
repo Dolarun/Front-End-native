@@ -8,6 +8,7 @@
         display: flex;
         justify-content: center;
         align-content: center;
+        margin-bottom: 20px;
     }
 
     &__f-name {
@@ -17,6 +18,8 @@
         border-radius: 5px;
         width: 278px;
         height: 48px;
+        margin-right: 40px;
+        background-color: #FAFAFA;
     }
 
     &__l-name {
@@ -26,6 +29,7 @@
         border-radius: 5px;
         width: 278px;
         height: 48px;
+        background-color: #FAFAFA;
     }
 
     &__email {
@@ -35,6 +39,8 @@
         border-radius: 5px;
         width: 278px;
         height: 48px;
+        margin-right: 40px;
+        background-color: #FAFAFA;
     }
 
     &__phone {
@@ -44,6 +50,7 @@
         border-radius: 5px;
         width: 278px;
         height: 48px;
+        background-color: #FAFAFA;
     }
 
     &__message {
@@ -51,19 +58,33 @@
         border-color: rgb(6, 30, 55);
         border-style: solid;
         border-radius: 5px;
-        padding-left:78px;
+        margin-bottom: 20px;
+        background-color: #FAFAFA;
     }
 
     &__radio-and-button {
         display: flex;
+        justify-content: space-between;
+        align-content: center;
     }
 
     &__radio {
-        align-self: center;
+        display: flex;
     }
 
     &__radio-sub {
         font-size: 15px;
+        margin-right: 8px;
+        align-self: center;
+    }
+
+    &__radio-article {
+        align-self: center;
+        font-size: 15px;
+        font-weight:bold;
+        font-family: "Raleway";
+        color: rgb(6, 30, 55);
+        line-height: 1.2;
     }
 
     &__send {
