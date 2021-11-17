@@ -1,0 +1,94 @@
+.footer {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        background-color: #132239;
+        padding: 140px 80px 140px 80px;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__logo {
+        margin-bottom: 50px;
+    }
+
+    &__items {
+        margin-bottom: 60px;
+        width: 440px;
+    }
+
+    &__privacy {
+        display: flex;
+        justify-content: space-between;
+        width: 310px;
+    }
+
+    &__item {
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgba(255, 255, 255, 0.502);
+        line-height: 1.667;
+        &:hover{
+            font-weight:bold;
+        }
+    }
+
+    &__dot-item {
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+            border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+            width: 6px;
+            height: 6px;
+            position: absolute;
+            top: 9px;
+            right: -25px;
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+            width: 6px;
+            height: 6px;
+            position: absolute;
+            top: 9px;
+            right: 80px;
+        }
+    }
+
+    &__links {
+        align-self: flex-end;
+    }
+
+    &__facebook {
+    }
+
+    &__twitter {
+        margin-left: 16px;
+    }
+
+    &__LinkedIn {
+        margin-left: 16px;
+    }
+
+    &__Social-ball {
+        margin-left: 16px;
+    }
+
+    &__Be {
+        margin-left: 16px;
+    }
+}

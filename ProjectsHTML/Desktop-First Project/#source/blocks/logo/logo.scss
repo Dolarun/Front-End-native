@@ -1,0 +1,19 @@
+.logo {
+    &__wrapper{
+        display:flex;
+    }
+    &__img {
+        margin-right: 2px;
+        width: 31px;
+        height: 30px;
+    }
+
+    &__article {
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1;
+        text-align: left;
+    }
+}

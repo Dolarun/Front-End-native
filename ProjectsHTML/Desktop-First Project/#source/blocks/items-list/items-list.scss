@@ -1,0 +1,64 @@
+.items-list {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__home {
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.667;
+        text-align: left;
+
+        &:hover {
+            color: rgb(6, 30, 55);
+        }
+    }
+
+    &__home_footer {
+        &:hover {
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    &__service {
+        @extend .items-list__home;
+    }
+
+    &__service_footer {
+        @extend .items-list__home_footer;
+    }
+
+    &__extension {
+        @extend .items-list__home;
+    }
+
+    &__extension_footer {
+        &:hover {
+            @extend .items-list__home_footer;
+        }
+    }
+
+    &__pricing {
+        @extend .items-list__home;
+    }
+
+    &__pricing_footer {
+        &:hover {
+            @extend .items-list__home_footer;
+        }
+    }
+
+
+    &__help {
+        @extend .items-list__home;
+    }
+
+    &__help_footer {
+        &:hover {
+            @extend .items-list__home_footer;
+        }
+    }
+}
