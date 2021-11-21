@@ -1,15 +1,22 @@
 .slide {
+    position: relative;
+
     &__wrapper {
         display: flex;
         flex-direction: column;
         position: relative;
+        padding-top:25px;
+        width: 730px;
+        height: 460px;
+        overflow:hidden;
+        z-index:1;
     }
 
     &__item {
         display: flex;
         margin-bottom: 80px;
+        transition: 0.9s;
     }
-
     &__icon {
         align-self: center;
         margin-right: 30px;
@@ -52,20 +59,100 @@
     &__prev {
         transform: rotate(90deg);
         position: absolute;
-        right: 318px;
-        top: -30px;
+        right: 44.2%;
+        top: -3px;
         color: white;
-        width: 100px;
-        height: 100px;
+        cursor: pointer;
+        z-index: 2;
     }
 
     &__next {
         transform: rotate(90deg);
         position: absolute;
-        right: 318px;
-        top: 420px;
+        right: 44.2%;
+        top: 442px;
         color: white;
-        width: 100px;
-        height: 100px;
+        cursor: pointer;
+        z-index: 2;
+    }
+}
+@keyframes faiding{
+    0%{
+        opacity:1;
+    }
+    10%{
+        opacity:0.9;
+    }
+    20%{
+        opacity:0.8;
+    }
+    30%{
+        opacity:0.7;
+    }
+    40%{
+        opacity:0.6;
+    }
+    50%{
+        opacity:0.5;
+    }
+    60%{
+        opacity:0.4;
+    }
+    70%{
+        opacity:0.3;
+    }
+    80%{
+        opacity:0.2;
+    }
+    90%{
+        opacity:0.1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes emerging {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.1;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    30% {
+        opacity: 0.3;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    70% {
+        opacity: 0.7;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    90% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
