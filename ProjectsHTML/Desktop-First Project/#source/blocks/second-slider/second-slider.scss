@@ -1,25 +1,72 @@
 .second-slide {
     &__wrapper {
         display: flex;
+        align-items: baseline;
     }
 
     &__item {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        order: 2;
+        user-select: none;
+    }
+
+    &__item_small-left {
+        position: relative;
+        left: 250px;
+        order: 1;
+    }
+
+    &__item_small-right {
+        position: relative;
+        right: 250px;
+        order: 3;
+    }
+
+    &__img-border {
+        display: flex;
+        justify-content: center;
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+        border-width: 20px;
+        border-color: white;
+        box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.95);
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &__img-border_disable {
+        border: none;
+        box-shadow: none;
+        margin-bottom: 0px;
     }
 
     &__img {
         align-self: center;
-        border-style: solid;
-        border-width: 20px;
-        border-color: rgb(255, 255, 255);
+        box-shadow: inset 0px 0px 15px 8px rgba(0,0,0,0.95);
         border-radius: 50%;
-        margin-bottom: 40px;
-        box-shadow: inset 0px 0px 60px rgba(0,0,0,0.95);
 
         img {
             position: relative;
-            z-index: -2;
+            z-index: -1;
+        }
+    }
+
+    &__img_small {
+        box-shadow: none !important;
+        border: none !important;
+
+        &:hover {
+            transition: 1s;
+            transform: scale(1.2);
+        }
+
+        img {
+            filter: grayscale(30%) opacity(0.4);
+            transform: scale(0.65);
         }
     }
 
@@ -33,6 +80,10 @@
         margin-bottom: 30px;
     }
 
+    &__name_small {
+        display: none;
+    }
+
     &__text {
         font-size: 15px;
         font-family: "Raleway";
@@ -43,9 +94,17 @@
         margin-bottom: 20px;
     }
 
+    &__text_small {
+        display: none;
+    }
+
     &__links {
         display: flex;
         justify-content: center;
+    }
+
+    &__links_small {
+        display: none;
     }
 
     &__facebook {
@@ -72,16 +131,4 @@
         filter: invert(1);
         margin: 0 10px 0 10px;
     }
-
-    &__prev {
-    }
-
-    &__next {
-    }
-}
-.Ellipse_3_copy {
-    border-style: solid;
-    border-width: 20px;
-    border-color: rgb(255, 255, 255);
-    border-radius: 50%;
 }

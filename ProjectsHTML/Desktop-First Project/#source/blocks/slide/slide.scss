@@ -5,11 +5,11 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        padding-top:25px;
+        padding-top: 25px;
         width: 730px;
         height: 460px;
-        overflow:hidden;
-        z-index:1;
+        overflow: hidden;
+        z-index: 1;
     }
 
     &__item {
@@ -17,6 +17,7 @@
         margin-bottom: 80px;
         transition: 0.9s;
     }
+
     &__icon {
         align-self: center;
         margin-right: 30px;
@@ -64,6 +65,7 @@
         color: white;
         cursor: pointer;
         z-index: 2;
+        user-select: none;
     }
 
     &__next {
@@ -74,6 +76,7 @@
         color: white;
         cursor: pointer;
         z-index: 2;
+        user-select: none;
     }
 }
 @keyframes faiding{
