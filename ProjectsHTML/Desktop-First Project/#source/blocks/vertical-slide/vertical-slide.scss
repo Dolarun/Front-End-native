@@ -1,4 +1,4 @@
-.slide {
+.vertical-slide {
     position: relative;
 
     &__wrapper {
@@ -61,27 +61,31 @@
     &__prev {
         transform: rotate(90deg);
         position: absolute;
-        right: 44.2%;
-        top: -3px;
+        right: 59.2%;
+        top: -120px;
         color: white;
         cursor: pointer;
         z-index: 2;
         user-select: none;
+        width: 25px;
+        height: 250px;
     }
 
     &__next {
         transform: rotate(90deg);
         position: absolute;
-        right: 44.2%;
-        top: 442px;
+        right: 59.2%;
+        top: 339px;
         color: white;
         cursor: pointer;
         z-index: 2;
         user-select: none;
+        width: 25px;
+        height: 250px;
     }
 }
 @keyframes faiding{
-    0%{
+    from{
         opacity:1;
     }
     10%{
@@ -111,7 +115,7 @@
     90%{
         opacity:0.1;
     }
-    100%{
+    to{
         opacity:0;
     }
 }

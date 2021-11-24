@@ -70,21 +70,21 @@
 
 
 
-    &__radio {
+    &__checkbox {
         display: flex;
-        user-select:none;
+        user-select: none;
     }
 
-    &__radio-sub {
+    &__radio {
         -webkit-appearance: none;
         position: absolute;
     }
 
-    &__radio-sub:checked ~ .form__checkbox{
+    &__radio:checked ~ .form__checkbox-appereance {
         background-image: url(../img/check_box_on.png);
     }
 
-    &__radio-article {
+    &__checkbox-article {
         align-self: center;
         font-size: 15px;
         font-weight: bold;
@@ -92,10 +92,10 @@
         color: rgb(6, 30, 55);
         line-height: 1.2;
         padding-left: 24px;
-        justify-self:center;
+        justify-self: center;
     }
 
-    &__checkbox {
+    &__checkbox-appereance {
         position: absolute;
         margin-top: 17px;
         width: 20px;

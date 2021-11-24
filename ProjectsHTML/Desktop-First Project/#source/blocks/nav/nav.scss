@@ -1,0 +1,36 @@
+.nav {
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 160px;
+    }
+
+    &__logo {
+    }
+
+    &__items {
+        align-self: center;
+        flex-basis: 450px;
+    }
+
+    &__button {
+        width: 80px;
+        height: 25px;
+        align-self: center;
+        background-color: rgba(0,0,0,0);
+        border-width: 1px;
+        border-color: rgba(255, 255, 255);
+        border-style: solid;
+        border-radius: 2px;
+        font-size: 12px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        line-height: 2.083;
+        text-align: center;
+
+        &:hover {
+            background-color: rgba(6, 30, 55,1);
+            font-weight: bold;
+        }
+    }
+}

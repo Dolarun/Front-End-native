@@ -1,10 +1,10 @@
 .statistics {
     &__wrapper {
         display: flex;
-        margin-bottom:100px;
+        margin-bottom: 100px;
     }
 
-    &__stat-1 {
+    &__stat {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -12,9 +12,25 @@
         width: 400px;
         height: 150px;
         flex-grow: 1;
+
+        &:nth-of-type(1) {
+            background-color: rgb(128, 216, 255);
+        }
+
+        &:nth-of-type(2) {
+            background-color: rgb(130, 177, 255);
+        }
+
+        &:nth-of-type(3) {
+            background-color: rgb(179, 136, 255);
+        }
+
+        &:nth-of-type(4) {
+            background-color: rgb(234, 128, 252);
+        }
     }
 
-    &__stat-picture-1 {
+    &__stat-picture {
         margin-right: 27px;
         align-content: center;
         border-radius: 50%;
@@ -25,51 +41,12 @@
         padding-top: 17px;
     }
 
-    &__stat-article-1 {
+    &__stat-article {
         font-size: 20px;
         font-family: "Raleway";
         color: rgb(255, 255, 255);
         font-weight: bold;
         line-height: 1.25;
         text-align: left;
-    }
-
-    &__stat-2 {
-        @extend .statistics__stat-1;
-        background-color: rgb(130, 177, 255);
-    }
-
-    &__stat-picture-2 {
-        @extend .statistics__stat-picture-1;
-    }
-
-    &__stat-article-2 {
-        @extend .statistics__stat-article-1;
-    }
-
-    &__stat-3 {
-        @extend .statistics__stat-1;
-        background-color: rgb(179, 136, 255);
-    }
-
-    &__stat-picture-3 {
-        @extend .statistics__stat-picture-1;
-    }
-
-    &__stat-article-3 {
-        @extend .statistics__stat-article-1;
-    }
-
-    &__stat-4 {
-        @extend .statistics__stat-1;
-        background-color: rgb(234, 128, 252);
-    }
-
-    &__stat-picture-4 {
-        @extend .statistics__stat-picture-1;
-    }
-
-    &__stat-article-4 {
-        @extend .statistics__stat-article-1;
     }
 }

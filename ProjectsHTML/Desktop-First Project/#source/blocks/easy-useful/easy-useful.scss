@@ -28,7 +28,7 @@
         margin-bottom: 20px;
     }
 
-    &__paragraph {
+    &__article {
         font-size: 15px;
         font-family: "Raleway";
         color: rgb(176, 190, 197);
@@ -46,17 +46,9 @@
         justify-content: space-between;
     }
 
-    &__item-1 {
+    &__item {
         display: flex;
         flex-direction: column;
-    }
-
-    &__item-2 {
-        @extend .easy-useful__item-1;
-    }
-
-    &__item-3 {
-        @extend .easy-useful__item-1;
     }
 
     &__item-picture {
@@ -78,7 +70,7 @@
         margin-bottom: 20px;
     }
 
-    &__item-paragraph {
+    &__item-article {
         font-size: 15px;
         font-family: "Raleway";
         color: rgb(120, 144, 156);
