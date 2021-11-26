@@ -164,3 +164,39 @@
         opacity: 1;
     }
 }
+
+@media(min-width: 768px) and (max-width:1200px) {
+    .vertical-slide {
+        position: relative;
+
+        &__wrapper {
+            width: 400px;
+            margin-bottom: 60px;
+        }
+
+        &__item {
+            display: block;
+        }
+
+        &__name {
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+
+        &__text {
+            font-size: 13px;
+        }
+
+        &__icon {
+            margin-right: 15px;
+        }
+
+        &__prev {
+            right: 66.2%;
+        }
+
+        &__next {
+            right: 66.2%;
+        }
+    }
+}

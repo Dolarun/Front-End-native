@@ -15,3 +15,17 @@
     }
 
 }
+@media(min-width: 768px) and (max-width:1200px) {
+    .video {
+        &__video {
+            max-width: 420px;
+            max-height: 210px;
+        }
+
+        &__postload-img {
+            position: absolute;
+            top: -165px;
+            right: 132px;
+        }
+    }
+}

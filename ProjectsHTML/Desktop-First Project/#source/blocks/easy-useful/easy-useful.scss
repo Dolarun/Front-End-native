@@ -102,3 +102,66 @@
         }
     }
 }
+@media(min-width: 768px) and (max-width:1200px) {
+    .easy-useful {
+        &__wrapper {
+            padding-left: 50px;
+            padding-right: 50px;
+            align-content: center;
+        }
+
+        &__header {
+            font-size: 35px;
+            margin-bottom: 5px;
+        }
+
+        &__underheader {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        &__article {
+            font-size: 15px;
+            max-width: 560px;
+            margin-bottom: 50px;
+        }
+
+
+        &__items {
+            margin-bottom: 50px;
+        }
+
+        &__item {
+            &:nth-child(n) {
+                margin-right: 20px;
+            }
+
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+
+        &__item-picture {
+            font-size: 50px;
+            margin-bottom: 80px;
+        }
+
+        &__item-header {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__item-article {
+            font-size: 13px;
+            max-width: 300px;
+        }
+
+
+        &__button {
+            font-size: 12px;
+            width: 100px;
+            height: 30px;
+            margin-bottom: 50px;
+        }
+    }
+}

@@ -93,3 +93,15 @@
         margin-left: 16px;
     }
 }
+@media(min-width: 768px) and (max-width:1200px){
+    .footer {
+        &__wrapper {
+            padding: 80px 50px 80px 50px;
+            min-width: 768px;
+        }
+
+        &__items {
+            width: 340px;
+        }
+    }
+}

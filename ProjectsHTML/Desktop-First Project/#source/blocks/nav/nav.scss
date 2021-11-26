@@ -1,5 +1,5 @@
 .nav {
-    &_wrapper {
+    &__wrapper {
         display: flex;
         justify-content: space-between;
         margin-bottom: 160px;
@@ -31,6 +31,18 @@
         &:hover {
             background-color: rgba(6, 30, 55,1);
             font-weight: bold;
+        }
+    }
+}
+@media(min-width: 768px) and (max-width:1200px) {
+    .nav {
+        &__wrapper {
+            flex-wrap: nowrap;
+            margin-bottom: 50px;
+        }
+
+        &__items {
+            flex-basis: 340px;
         }
     }
 }

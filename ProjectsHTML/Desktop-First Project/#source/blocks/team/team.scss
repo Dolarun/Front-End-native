@@ -33,3 +33,23 @@
         align-self: center;
     }
 }
+@media(min-width: 768px) and (max-width:1200px) {
+    .team {
+        &__wrapper {
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+
+        &__header {
+            font-size: 35px;
+            margin-bottom: 25px;
+        }
+
+        &__underheader {
+            margin-bottom:40px;
+        }
+
+        &__slider {
+        }
+    }
+}

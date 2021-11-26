@@ -158,3 +158,64 @@
         height: auto;
     }
 }
+
+@media(min-width: 768px) and (max-width:1200px) {
+    .spoiler {
+
+        &__wrapper {
+            width:660px;
+        }
+
+        &__title {
+            font-size:14px;
+            &::after {
+            }
+        }
+
+        &__title_stat {
+            &::before {
+            }
+        }
+
+        &__title_inbox {
+            &::before {
+            }
+        }
+
+        &__title_team {
+            &::before {
+            }
+        }
+
+        &__title_settings {
+            &::before {
+            }
+        }
+
+        &__title_feed {
+            &::before {
+            }
+        }
+
+        &__content {
+        }
+
+        &__content_active {
+        }
+
+        &__content_disable {
+        }
+
+        &__image {
+            img {
+            }
+
+            source {
+            }
+        }
+
+        &__text {
+            font-size:13px;
+        }
+    }
+}
