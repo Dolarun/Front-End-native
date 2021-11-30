@@ -5,11 +5,11 @@
         justify-content: center;
         margin-top: 140px;
         margin-bottom: 140px;
-        max-height:760px;
+        max-height: 760px;
     }
 
     &__header {
-        font-size: 45px;
+        @include font(45,20);
         font-family: "Raleway";
         color: rgb(6, 30, 55);
         font-weight: bold;
@@ -20,7 +20,7 @@
 
     &__underheader {
         max-width: 555px;
-        font-size: 15px;
+        @include font(15,14);
         font-family: "Raleway";
         color: rgb(176, 190, 197);
         line-height: 1.667;
@@ -41,7 +41,6 @@
         }
 
         &__header {
-            font-size: 35px;
             margin-bottom: 25px;
         }
 

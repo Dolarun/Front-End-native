@@ -7,11 +7,10 @@
         display: flex;
         width: 820px;
         flex-direction: column;
-   
     }
 
     &__title {
-        font-size: 15px;
+        @include font(15,14);
         font-family: "Raleway";
         color: rgb(6, 30, 55);
         font-weight: bold;
@@ -114,8 +113,8 @@
         display: flex;
         animation: animation;
         animation-duration: 800ms;
-        animation-iteration-count:1;
-        animation-fill-mode:forwards;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
 
     &__content_disable {
@@ -137,7 +136,7 @@
     &__text {
         max-width: 480px;
         margin: 0px 25px 25px 0px;
-        font-size: 15px;
+        @include font(15,14);
         font-family: "Raleway";
         color: rgb(6, 30, 55);
         line-height: 1.667;

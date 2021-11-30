@@ -22,10 +22,9 @@
         border-color: rgba(255, 255, 255);
         border-style: solid;
         border-radius: 2px;
-        font-size: 12px;
+        @include font(15,14);
         font-family: "Raleway";
         color: rgb(255, 255, 255);
-        line-height: 2.083;
         text-align: center;
 
         &:hover {

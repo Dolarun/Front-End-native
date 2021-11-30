@@ -6,7 +6,7 @@
     }
 
     &__header {
-        font-size: 45px;
+        @include font(45,20);
         font-family: "Raleway";
         color: rgb(6, 30, 55);
         font-weight: bold;
@@ -16,7 +16,7 @@
     }
 
     &__article {
-        font-size: 15px;
+        @include font(15,14);
         font-family: "Raleway";
         color: rgb(176, 190, 197);
         line-height: 1.667;
@@ -64,7 +64,6 @@
         }
 
         &__header {
-            font-size:35px;
             margin-bottom:15px;
         }
 

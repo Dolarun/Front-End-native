@@ -5,7 +5,7 @@
     }
 
     &__home {
-        font-size: 15px;
+        @include font(15,14);
         font-family: "Raleway";
         color: rgb(255, 255, 255);
         font-weight: bold;

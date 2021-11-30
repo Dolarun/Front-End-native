@@ -1,0 +1,14 @@
+$Layout_width: 1600;
+
+@mixin font($max_FZ,$min_FZ) {
+    $addSize: $max_FZ - $min_FZ;
+    $addMobSize: $addSize + $addSize * 0.7;
+
+    @media(max-width:768px) {
+        font-size: calc(#{$min_FZ + px} + #{$addMobSize} * ((100vw - 320px)/#{$Layout_width}));
+    }
+
+    @media(min-width:768px) {
+        font-size: calc(#{$min_FZ + px} + #{$addSize} * (100vw/#{$Layout_width}));
+    }
+}

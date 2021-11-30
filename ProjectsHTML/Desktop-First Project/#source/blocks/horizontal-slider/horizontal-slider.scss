@@ -2,8 +2,8 @@
     &__wrapper {
         display: flex;
         align-items: baseline;
-        justify-content:center;
-        min-width:1140px;
+        justify-content: center;
+        min-width: 1140px;
     }
 
     &__item {
@@ -73,7 +73,7 @@
     }
 
     &__name {
-        font-size: 18px;
+        @include font(18,15);
         font-family: "Raleway";
         color: rgb(6, 30, 55);
         font-weight: bold;
@@ -87,7 +87,7 @@
     }
 
     &__text {
-        font-size: 15px;
+        @include font(15,14);
         font-family: "Raleway";
         color: rgb(144, 164, 174);
         line-height: 1.667;

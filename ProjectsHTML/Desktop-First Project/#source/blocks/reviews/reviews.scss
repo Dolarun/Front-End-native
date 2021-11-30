@@ -4,7 +4,7 @@
         background-size: cover;
         height: auto;
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         padding-left: 80px;
         padding-right: 80px;
     }
@@ -18,7 +18,7 @@
         margin-top: 154px;
         margin-bottom: 20px;
         max-width: 450px;
-        font-size: 45px;
+        @include font(45,20);
         font-family: "Raleway";
         color: rgb(255, 255, 255);
         font-weight: bold;
@@ -29,7 +29,7 @@
     &__underheader {
         margin-bottom: 70px;
         max-width: 540px;
-        font-size: 15px;
+        @include font(15,14);
         font-family: "Raleway";
         color: rgb(255, 255, 255);
         font-weight: bold;
@@ -38,9 +38,9 @@
     }
 
     &__button {
-        width: 150px;
-        height: 55px;
-        font-size: 15px;
+        width: calc(#{100 + px} + #{50} * (100vw/#{1600}));
+        height: calc(#{30 + px} + #{25} * (100vw/#{1600}));
+        @include font(16,12);
         font-family: "Raleway";
         color: rgb(255, 255, 255);
         font-weight: bold;
@@ -58,12 +58,21 @@
     }
 
     &__slider {
-        margin-top:130px;
+        margin-top: 130px;
     }
-
 }
 @media(min-width: 768px) and (max-width:1200px) {
     .reviews {
-       
+        &__article {
+            margin-right: 25px;
+        }
+
+        &__header {
+            min-width:224px;
+        }
+
+        &__underheader{
+            margin-bottom:45px;
+        }
     }
 }

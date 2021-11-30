@@ -42,7 +42,7 @@
     }
 
     &__stat-article {
-        font-size: 20px;
+        @include font(20,15);
         font-family: "Raleway";
         color: rgb(255, 255, 255);
         font-weight: bold;
@@ -71,10 +71,6 @@
             width: 40px;
             height: 40px;
             padding-top: 8px;
-        }
-
-        &__stat-article {
-            font-size: 20px;
         }
     }
 }
